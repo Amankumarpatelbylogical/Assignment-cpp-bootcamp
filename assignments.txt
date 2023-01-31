@@ -1,0 +1,130 @@
+      1.  main(){
+           int  N;
+          scanf("%d",&n);
+       printf("%d",N%10);
+            return 0;
+            }
+
+
+
+      2.  main(){
+         int num,dijit;
+         printf("Enter a number");
+             scanf("%d",&num);
+         dijit = num/10'
+          printf("number without last dijit =%d",digit);
+                return 0;
+                      }
+       
+     3. main(){
+         int x,y,z;
+          printf("Enter the value of x and y");
+          scanf("%d %d",&x,&y);
+            z=x;
+            x=y;
+            y=z;
+           printf("x is %d and y is %d",x,y);
+                   return0;
+             }
+
+
+       4. main(){
+          int a,b;
+          printf("Enter two vairiabls");
+            scanf("%d %d",&a,&b);
+         printf("Befor swap value of %d %d",a,b);
+              a=a+b;
+              b=a-b;
+              a=a-b;
+          printf("After swap value of a=%d b=%d",a,b);
+             return0;
+             }
+ 
+
+        5. main(){
+           int a,b,c,sum;
+          printf("Enetr any three number");
+            scanf("%d %d %d",&a,&b,&c);
+                sum=a+b+c;
+            printf("Print the value of sum= %d",sum);
+               return0;
+                  }
+       
+
+       6.  main(){
+           char c;
+         printf(Enter any charctr);
+          scanf("%c",&c);
+           pruntf("The ASCII value is %d=%c",c);
+                       return0;
+              }
+
+          7.?
+
+        
+       8.  main(){
+             int num;
+           printf("Enter any number");  
+              scanf("%d",&num);
+                 if(num & 1)
+                      { 
+           printf("%d is odd",num);
+                      }else
+                           {
+             printf("%d is even",num);
+                           }
+                      return0;
+                        }
+
+      9.   main();
+               {
+            int intType;
+             float floatType;
+             char charType;
+              double doubleType;
+         printf("size of int:%ld byts\n",size of(intType));
+         printf("size of float:%ld byts\n",size of(floatType));
+         printf("size of char:%ld byts\n",size of(charType));
+         printf("size of double:%ld byts\n",size of(doubleType));
+               return0;
+                   }
+  
+    10.main(){
+        int x,c,d;
+       printf("Enter any num");
+       scanf("%d",&x);
+               c=x/10;
+               d=c*10;
+        printf("the entrd number with last digit resplace by zero is %d",d);
+             return0;
+             }
+
+
+    11.main(){
+        int x;
+        char c,append;
+      printf("input a number and dijit: ");
+       scanf("%d %c",&x,&c);
+            append = 'x*c'; 
+       printf("The number is %c",append);
+                return0;
+                     }    
+
+
+   12. main(){
+           float USD,INR;
+       printf("Enter INR");
+        scanf("%f",&INR);
+          USD=1/76.23*INR;
+      printf("it is %f us Doller",USD);
+             return0;
+            }
+
+  13. main(){
+       int x=123,q,r;
+        q= x/10;
+         r= x%10;
+         x= r*100+q;
+  printf("%d",x);
+        return0;
+        }
